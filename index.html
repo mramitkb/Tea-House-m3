@@ -30,6 +30,8 @@
                 'product-color2': '#F4F4F4',
                 'fresh1': 'rgba(230, 166, 35, 0.10)',
                 'fresh2': 'rgba(87, 118, 57, 0.10)',
+                'foot1': 'rgba(255, 0, 0, 0.10)',
+                'foot2': 'rgba(255, 137, 56, 0.10)',
               }
             }
           }
@@ -189,9 +191,101 @@
             </div>
         </div>
       </div>
+      <!-- News & Events Section -->
+      <div class="max-w-screen-2xl mx-auto mt-28 p-5">
+          <h1 class="text-center font-extrabold text-5xl">News & Events</h1>
+          <p class="text-center text-[#777] mt-5">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form by <br class="hidden lg:inline">injected humour or random words which don't look even slightly believable.</p>
+          <!-- Tea Purchase -->
+          <div class="flex flex-col md:flex-row items-center justify-evenly mt-12 p-5 gap-5">
+              <!-- Cart -->
+              <div class="border p-5 rounded-lg shadow-xl space-y-3">
+                  <div class="rounded-lg">
+                    <img src="./images/news-1.png" alt="">
+                  </div>
+                  <p class="font-medium text-sm text-[#777]">Jan 05, 2024</p>
+                  <h5 class="text-xl font-extrabold">Collecting 8 points for Discount.</h5>
+                  <p class="font-medium text-sm text-[#777]">There are many variations of passages of<br> Lorem Ipsum available.</p>
+                  <button class="font-bold">Learn More</button>
+              </div>
+              <!-- Cart -->
+              <div class="border p-5 rounded-lg shadow-xl space-y-3">
+                <div class="rounded-lg">
+                  <img src="./images/news-2.png" alt="">
+                </div>
+                <p class="font-medium text-sm text-[#777]">Jan 05, 2024</p>
+                <h5 class="text-xl font-extrabold">Collecting 8 points for Discount.</h5>
+                <p class="font-medium text-sm text-[#777]">There are many variations of passages of<br> Lorem Ipsum available.</p>
+                <button class="font-bold">Learn More</button>
+              </div>
+              <!-- Cart -->
+              <div class="border p-5 rounded-lg shadow-xl space-y-3">
+                <div class="rounded-lg">
+                  <img src="./images/news-3.png" alt="">
+                </div>
+                <p class="font-medium text-sm text-[#777]">Jan 05, 2024</p>
+                <h5 class="text-xl font-extrabold">Collecting 8 points for Discount.</h5>
+                <p class="font-medium text-sm text-[#777]">There are many variations of passages of<br> Lorem Ipsum available.</p>
+                <button class="font-bold">Learn More</button>
+              </div>
+          </div>
+      </div>
     </main>
-    <footer>
-
+    <footer class="bg-gradient-to-l from-foot1 to-foot2 mt-28">
+        <div class="max-w-screen-2xl mx-auto py-36">
+          <!-- Manual -->
+          <div class="flex items-center justify-between md:mx-10 p-3">
+              <div>
+                <img src="./images/cup.png" alt="">
+              </div>
+              <div class="flex items-center justify-between md:mr-52 gap-5">
+                <div>
+                  <h4 class="font-medium">Ready to get started?</h4>
+                </div>
+                <div>
+                  <button class="bg-gradient-to-r from-btn-color1 to-btn-color2 px-4 py-2 rounded-md text-white font-medium">Get Started</button>
+                </div>
+              </div>
+          </div>
+          <!-- Daisy-Footer -->
+          <footer class="footer p-10  text-base-content">
+            <nav>
+              <header class="footer-title text-black font-extrabold">Quick Links</header> 
+              <a class="link link-hover">Home</a>
+              <a class="link link-hover">About Us</a>
+              <a class="link link-hover">Insurance</a>
+              <a class="link link-hover">Privacy Policy</a>
+            </nav> 
+            <nav>
+              <header class="footer-title text-black font-extrabold">Our Service</header> 
+              <a class="link link-hover">Life Insurance</a>
+              <a class="link link-hover">Car Insurance</a>
+              <a class="link link-hover">Health Insurance</a>
+              <a class="link link-hover">House Insurance</a>
+            </nav> 
+            <nav>
+              <header class="footer-title text-black font-extrabold">Help</header> 
+              <a class="link link-hover">FAQs</a>
+              <a class="link link-hover">Contact us</a>
+            </nav> 
+            <form>
+              <header class="footer-title text-xl text-black font-extrabold">Subscribe to our Newsletter</header> 
+              <fieldset class="form-control w-80">
+                <label class="label">
+                  <span class="label-text">Email Address</span>
+                </label> 
+                <div class="join">
+                    <input class="bg-transparent  border-b-2 border-black px-4 py-2" type="email" name="email" id="email">
+                    <button class="p-2">
+                      <img class="w-[15px] bg-gradient-to-r from-btn-color1 to-btn-color2 rounded-full" src="./images/Sign.png" alt="">
+                    </button>
+                </div>
+              </fieldset>
+            </form>
+          </footer>
+          <div class="text-center mt-20">
+            <small>&copy;2024 UI Design to -All Rights Reserved.</small>
+          </div>
+        </div>
     </footer>
 </body>
 </html>
